@@ -10,7 +10,6 @@ body {
   font-family: 'Roboto', sans-serif;
   background: white;
   position: relative;
-  font-weight:400px;
 }
 
 ul li {
@@ -39,7 +38,7 @@ a {
     transition: 300ms;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5 {
   font-family: 'Roboto', sans-serif;
 }
 
@@ -55,7 +54,7 @@ h1, h2, h3, h4, h5, h6 {
 
 a#scrollUp {
   bottom: 0px;
-  right: 10px;
+  right: 8px;
   padding: 6px 10px;
   background: #FE980F;
   color: #FFF;
