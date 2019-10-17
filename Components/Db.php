@@ -4,7 +4,7 @@ class Db
 {
     public static function getConnection()
     {
-        $paramsPath =  "Config/db.php";
+        $paramsPath =  "Config/db_params.php";
         $params = include($paramsPath);
 
         $dsn = "mysql:host={$params['host']}; dbname={$params['dbname']}";
